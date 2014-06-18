@@ -21,6 +21,7 @@
 		D558E4F51952162400BFB536 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D558E4D71952162300BFB536 /* UIKit.framework */; };
 		D558E4FD1952162400BFB536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D558E4FB1952162400BFB536 /* InfoPlist.strings */; };
 		D558E4FF1952162400BFB536 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D558E4FE1952162400BFB536 /* GitTestTests.m */; };
+		D558E50A1952178700BFB536 /* MBFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D558E5091952178700BFB536 /* MBFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D558E4FA1952162400BFB536 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		D558E4FC1952162400BFB536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D558E4FE1952162400BFB536 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		D558E5081952178700BFB536 /* MBFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFTest.h; sourceTree = "<group>"; };
+		D558E5091952178700BFB536 /* MBFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		D558E4C71952162300BFB536 = {
 			isa = PBXGroup;
 			children = (
+				D558E5081952178700BFB536 /* MBFTest.h */,
+				D558E5091952178700BFB536 /* MBFTest.m */,
 				D558E4D91952162300BFB536 /* GitTest */,
 				D558E4F81952162400BFB536 /* GitTestTests */,
 				D558E4D21952162300BFB536 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D558E4E41952162300BFB536 /* MBFAppDelegate.m in Sources */,
+				D558E50A1952178700BFB536 /* MBFTest.m in Sources */,
 				D558E4EA1952162300BFB536 /* MBFViewController.m in Sources */,
 				D558E4E01952162300BFB536 /* main.m in Sources */,
 			);
